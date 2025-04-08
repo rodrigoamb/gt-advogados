@@ -126,22 +126,23 @@ body {
 /* Especialidades */
 
 .container-section-especialidades {
-  background-color: lightsalmon;
   display: flex;
   justify-content: center;
+  padding: 4rem;
 }
 
 .container-div-especialidades {
-  background-color: red;
   width: 80%;
   display: flex;
   justify-content: center;
   flex-direction: column;
   align-items: center;
+  gap: 2.5rem;
 }
 
 .container-div-especialidades h2 {
-  background-color: blue;
+  font-size: 3rem;
+  color: #1a2b4b;
 }
 
 .container-cards-especialidades {
@@ -155,6 +156,14 @@ body {
 .card-especialidades {
   border: 0.2rem solid #b68954;
   width: 23rem;
+  height: 15rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 1rem;
+  padding: 2rem;
+  color: #1a2b4b;
 }
 
 .card-especialidades img {
