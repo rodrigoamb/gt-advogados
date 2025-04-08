@@ -55,6 +55,7 @@ body {
   background-color: #1a2b4b;
   display: flex;
   justify-content: center;
+  border-bottom: 1.5rem solid #b68954;
 }
 
 .container-div-banner-principal {
@@ -63,4 +64,17 @@ body {
   display: flex;
   flex-direction: row;
   align-items: center;
+}
+
+.container-div-textos-banner-principal {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.container-div-textos-banner-principal h1 {
+  color: white;
+  font-size: 3.5rem;
+  border-left: 0.5rem solid #b68954;
+  padding-left: 1rem;
 }
