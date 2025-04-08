@@ -1,0 +1,66 @@
+/* reset do css */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+/* header - cabeçalho */
+
+.container-header-cabecalho {
+  background-color: #1a2b4b;
+  border-bottom: 1.5rem solid #b68954;
+  display: flex;
+  justify-content: center;
+  padding: 2.25rem 0;
+}
+
+.container-div-cabecalho {
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container-ul-cabecalho {
+  display: flex;
+  flex-direction: row;
+  gap: 1.5rem;
+  list-style: none;
+}
+
+.container-ul-cabecalho li a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+
+.container-ul-cabecalho li a:hover {
+  color: #b68954;
+  border-top: 0.37rem solid #b68954;
+  border-bottom: 0.37rem solid #b68954;
+  padding: 0.5rem 0;
+  transition: 0.4s ease;
+}
+
+/* Banner principal */
+
+.container-section-banner-principal {
+  background-color: #1a2b4b;
+  display: flex;
+  justify-content: center;
+}
+
+.container-div-banner-principal {
+  background-color: red;
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
