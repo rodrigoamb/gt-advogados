@@ -80,7 +80,8 @@ body {
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  z-index: 1;
+  flex-wrap: wrap;
+  z-index: 2;
 }
 
 .container-div-textos-banner-principal {
@@ -120,4 +121,42 @@ body {
 
 #estatua-justica {
   width: 26rem;
+}
+
+/* Especialidades */
+
+.container-section-especialidades {
+  background-color: lightsalmon;
+  display: flex;
+  justify-content: center;
+}
+
+.container-div-especialidades {
+  background-color: red;
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container-div-especialidades h2 {
+  background-color: blue;
+}
+
+.container-cards-especialidades {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 5rem;
+}
+
+.card-especialidades {
+  border: 0.2rem solid #b68954;
+  width: 23rem;
+}
+
+.card-especialidades img {
+  width: 4.3rem;
 }
