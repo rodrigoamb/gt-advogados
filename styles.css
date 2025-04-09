@@ -173,10 +173,25 @@ body {
 /* Quem somos */
 
 .container-section-quem-somos {
-  background-color: #1a2b4b;
+  background-image: url("assets/banner-sobre-mim.png");
+  background-size: cover;
   display: flex;
   justify-content: center;
   padding: 4rem 0;
+  position: relative;
+}
+
+.container-section-quem-somos::before {
+  content: "";
+  background-color: #1a2b4b;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0.8;
 }
 
 .container-div-quem-somos {
@@ -185,6 +200,7 @@ body {
   flex-direction: column;
   align-items: center;
   gap: 3rem;
+  z-index: 2;
 }
 
 #foto-advogado {
