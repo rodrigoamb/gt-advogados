@@ -236,13 +236,12 @@ body {
 /* Depoimentos */
 
 .container-section-depoimentos {
-  background-color: aquamarine;
   display: flex;
   justify-content: center;
+  padding: 4rem 0;
 }
 
 .container-div-depoimentos {
-  background-color: red;
   width: 80%;
   display: flex;
   align-items: center;
@@ -256,7 +255,6 @@ body {
 }
 
 .container-cards-depoimentos {
-  background-color: coral;
   width: 100%;
   display: flex;
   flex-direction: row;
@@ -292,4 +290,14 @@ body {
   width: 4.35rem;
   position: absolute;
   bottom: 25rem;
+}
+
+/* footer - rodapé */
+
+footer {
+  background-color: #b68954;
+  color: white;
+  text-align: center;
+  font-size: 1.3rem;
+  padding: 4rem 0;
 }
