@@ -247,6 +247,12 @@ body {
   display: flex;
   align-items: center;
   flex-direction: column;
+  gap: 4rem;
+}
+
+.container-div-depoimentos h2 {
+  font-size: 3rem;
+  color: #1a2b4b;
 }
 
 .container-cards-depoimentos {
@@ -271,6 +277,11 @@ body {
   padding: 2rem;
   position: relative;
   height: 26.75rem;
+  color: #1a2b4b;
+}
+
+.card-depoimentos h3 {
+  font-size: 1.4rem;
 }
 
 .card-depoimentos p {
