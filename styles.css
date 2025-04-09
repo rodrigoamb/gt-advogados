@@ -311,3 +311,17 @@ footer {
   font-size: 1.3rem;
   padding: 4rem 0;
 }
+
+@media (max-width: 1150px) {
+  .container-div-cabecalho {
+    flex-direction: column;
+    gap: 3rem;
+  }
+}
+
+@media (max-width: 700px) {
+  .container-div-cabecalho ul {
+    display: none;
+    flex-direction: row;
+  }
+}
