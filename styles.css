@@ -169,3 +169,42 @@ body {
 .card-especialidades img {
   width: 4.3rem;
 }
+
+/* Quem somos */
+
+.container-section-quem-somos {
+  background-color: #1a2b4b;
+  display: flex;
+  justify-content: center;
+}
+
+.container-div-quem-somos {
+  background-color: red;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#foto-advogado {
+  width: 25rem;
+  height: 25rem;
+  border-radius: 100%;
+  object-fit: cover;
+  border: 0.2rem solid #b68954;
+}
+
+.container-div-quem-somos h2 {
+  color: white;
+  font-size: 3rem;
+  font-weight: 700;
+  border-bottom: 0.5rem solid #b68954;
+  padding-bottom: 1rem;
+}
+
+.container-div-quem-somos article {
+  background-color: greenyellow;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
