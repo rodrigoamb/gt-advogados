@@ -232,3 +232,53 @@ body {
 #ultima-frase-quem-somos {
   font-weight: bold;
 }
+
+/* Depoimentos */
+
+.container-section-depoimentos {
+  background-color: aquamarine;
+  display: flex;
+  justify-content: center;
+}
+
+.container-div-depoimentos {
+  background-color: red;
+  width: 80%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.container-cards-depoimentos {
+  background-color: coral;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 3rem;
+}
+
+.card-depoimentos {
+  border: 0.2rem solid #b68954;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 20.6rem;
+  border-radius: 1rem;
+  text-align: center;
+  gap: 1.5rem;
+  padding: 2rem;
+  position: relative;
+  height: 26.75rem;
+}
+
+.card-depoimentos p {
+  font-size: 1.2rem;
+}
+
+.aspas {
+  width: 4.35rem;
+  position: absolute;
+  bottom: 25rem;
+}
